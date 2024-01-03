@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <style>
+    body {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      height: 100vh;
+      margin: 0;
+      background-color: #EDEADE;
+    }
+
+    .wheel {
+      width: 300px;
+      height: 300px;
+      border-radius: 50%;
+      background-color: #000080 ;
+      position: relative;
+      transition: transform 5s ease-in-out;
+      border-top: 50px solid orange;
+      border-left: 50px solid white;
+      border-bottom: 50px solid green;
+      border-right: 50px solid white;
+    }
+
+    .wheel:hover {
+      transform: rotate(1800deg);
+    }
+    
+  </style>
+</head>
+<body>
+  <div class="wheel"></div>
+</body>
+</html>
